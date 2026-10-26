@@ -1,18 +1,18 @@
 export default function Home() {
     return (
         <main className="min-h-screen p-8 max-w-4xl mx-auto font-sans">
-            {/* ƒq[ƒ[ƒZƒNƒVƒ‡ƒ“iŽ©ŒÈÐ‰î‚Ìƒgƒbƒvj */}
+            {/* ãƒ’ãƒ¼ãƒ­ãƒ¼ã‚»ã‚¯ã‚·ãƒ§ãƒ³ï¼ˆè‡ªå·±ç´¹ä»‹ã®ãƒˆãƒƒãƒ—ï¼‰ */}
             <section className="py-12 border-b border-gray-200">
                 <h1 className="text-4xl font-bold mb-4 text-gray-900">
-                    ‚±‚ñ‚É‚¿‚ÍI!![‚ ‚È‚½‚Ì‚¨–¼‘O] ‚Å‚·
+                    ã“ã‚“ã«ã¡ã¯ï¼!![ã‚ãªãŸã®ãŠåå‰] ã§ã™
                 </h1>
                 <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                    WebƒfƒUƒCƒi[ / ƒtƒƒ“ƒgƒGƒ“ƒhƒGƒ“ƒWƒjƒA‚ð–ÚŽw‚µ‚Ä•×‹­’†‚Å‚·B
-                    Œ©‚â‚·‚­Žg‚¢‚â‚·‚¢WebƒTƒCƒg‚Ì§ì‚ðS‚ª‚¯‚Ä‚¢‚Ü‚·B
+                    Webãƒ‡ã‚¶ã‚¤ãƒŠãƒ¼ / ãƒ•ãƒ­ãƒ³ãƒˆã‚¨ãƒ³ãƒ‰ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ã‚’ç›®æŒ‡ã—ã¦å‹‰å¼·ä¸­ã§ã™ã€‚
+                    è¦‹ã‚„ã™ãä½¿ã„ã‚„ã™ã„Webã‚µã‚¤ãƒˆã®åˆ¶ä½œã‚’å¿ƒãŒã‘ã¦ã„ã¾ã™ã€‚
                 </p>
             </section>
 
-            {/* ƒXƒLƒ‹ƒZƒNƒVƒ‡ƒ“ */}
+            {/* ã‚¹ã‚­ãƒ«ã‚»ã‚¯ã‚·ãƒ§ãƒ³ */}
             <section className="py-12 border-b border-gray-200">
                 <h2 className="text-2xl font-bold mb-6 text-gray-800">Skills</h2>
                 <div className="flex flex-wrap gap-3">
@@ -24,40 +24,40 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* §ì•¨iŽÀÑjƒZƒNƒVƒ‡ƒ“ */}
+            {/* åˆ¶ä½œç‰©ï¼ˆå®Ÿç¸¾ï¼‰ã‚»ã‚¯ã‚·ãƒ§ãƒ³ */}
             <section className="py-12 border-b border-gray-200">
                 <h2 className="text-2xl font-bold mb-6 text-gray-800">Works</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* §ì•¨ƒJ[ƒh 1 */}
+                    {/* åˆ¶ä½œç‰©ã‚«ãƒ¼ãƒ‰ 1 */}
                     <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
-                        <h3 className="text-xl font-bold mb-2">ƒ|[ƒgƒtƒHƒŠƒIƒTƒCƒg</h3>
+                        <h3 className="text-xl font-bold mb-2">ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒªã‚ªã‚µã‚¤ãƒˆ</h3>
                         <p className="text-gray-600 text-sm mb-4">
-                            Next.js‚ÆTailwind CSS‚ðŽg—p‚µ‚Ä§ì‚µ‚½Ž©g‚Ìƒ|[ƒgƒtƒHƒŠƒIƒTƒCƒg‚Å‚·B
+                            Next.jsã¨Tailwind CSSã‚’ä½¿ç”¨ã—ã¦åˆ¶ä½œã—ãŸè‡ªèº«ã®ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒªã‚ªã‚µã‚¤ãƒˆã§ã™ã€‚
                         </p>
                         <span className="text-xs text-indigo-600 font-semibold">Next.js / Vercel</span>
                     </div>
-                    {/* §ì•¨ƒJ[ƒh 2 */}
+                    {/* åˆ¶ä½œç‰©ã‚«ãƒ¼ãƒ‰ 2 */}
                     <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
-                        <h3 className="text-xl font-bold mb-2">ƒTƒ“ƒvƒ‹ƒvƒƒWƒFƒNƒg</h3>
+                        <h3 className="text-xl font-bold mb-2">ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ</h3>
                         <p className="text-gray-600 text-sm mb-4">
-                            ‚±‚±‚É¡Œãì‚Á‚½WebƒTƒCƒg‚âƒAƒvƒŠ‚ÌÐ‰î‚ð‘‚¢‚Ä‚¢‚«‚Ü‚·B
+                            ã“ã“ã«ä»Šå¾Œä½œã£ãŸWebã‚µã‚¤ãƒˆã‚„ã‚¢ãƒ—ãƒªã®ç´¹ä»‹ã‚’æ›¸ã„ã¦ã„ãã¾ã™ã€‚
                         </p>
                         <span className="text-xs text-indigo-600 font-semibold">React / HTML / CSS</span>
                     </div>
                 </div>
             </section>
 
-            {/* ˜A—æƒZƒNƒVƒ‡ƒ“ */}
+            {/* é€£çµ¡å…ˆã‚»ã‚¯ã‚·ãƒ§ãƒ³ */}
             <section className="py-12">
                 <h2 className="text-2xl font-bold mb-4 text-gray-800">Contact</h2>
                 <p className="text-gray-600 mb-4">
-                    ‚²˜A—‚Íƒ[ƒ‹‚Ü‚½‚ÍSNS‚É‚Ä‚¨‹CŒy‚É‚¨–â‚¢‡‚í‚¹‚­‚¾‚³‚¢B
+                    ã”é€£çµ¡ã¯ãƒ¡ãƒ¼ãƒ«ã¾ãŸã¯SNSã«ã¦ãŠæ°—è»½ã«ãŠå•ã„åˆã‚ã›ãã ã•ã„ã€‚
                 </p>
                 <a
                     href="mailto:example@email.com"
                     className="inline-block px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition"
                 >
-                    ƒ[ƒ‹‚ð‘—‚é
+                    ãƒ¡ãƒ¼ãƒ«ã‚’é€ã‚‹
                 </a>
             </section>
         </main>
