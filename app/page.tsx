@@ -4,7 +4,7 @@ export default function Home() {
             {/* ヒーローセクション（自己紹介のトップ） */}
             <section className="py-12 border-b border-gray-200">
                 <h1 className="text-4xl font-bold mb-4 text-gray-900">
-                    こんにちは！[あなたのお名前] です
+                    こんにちは！!![あなたのお名前] です
                 </h1>
                 <p className="text-xl text-gray-600 mb-6 leading-relaxed">
                     Webデザイナー / フロントエンドエンジニアを目指して勉強中です。
